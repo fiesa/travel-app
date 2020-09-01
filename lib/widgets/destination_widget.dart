@@ -47,9 +47,7 @@ class DestinationWidget extends StatelessWidget {
                 onTap: () => Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (_) => DestinationScreen(
-                      destination: destination,
-                    ),
+                    builder: (_) =>DestinationScreen(destination)
                   ),
                 ),
                 child: Container(
